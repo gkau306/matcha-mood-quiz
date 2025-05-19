@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: url("/images/clouds.png") repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 1rem;
+  color: #ff99cc;
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #ff66a5;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.cute-button {
+  background-color: #d8d6ff; /* periwinkle pastel */
+  color: #2d0030;
+  font-size: 0.75rem;
+  font-family: 'Press Start 2P', cursive;
+  padding: 1em 1.5em;
+  border: 4px solid #fff;
+  outline: 3px solid #000;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 #000;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  margin: 1rem auto;
+  display: block;
+}
+
+.cute-button:hover {
+  background-color: #bfbaff;
+  transform: scale(1.05);
+  box-shadow: 6px 6px 0 #000;
+}
+
+
+.sentence-box {
+  background-color: #b6e3b6; /* matcha green */
+  color: #1f3b1f;
+  font-size: 0.75rem;
+  font-family: 'Press Start 2P', cursive;
+  padding: 1.5rem;
+  border: 4px solid #fff;
+  outline: 3px solid #000;
+  min-width: 320px;
+  text-align: center;
+  box-shadow: 6px 6px 0 #000;
+  margin-top: 1rem;
+}
